@@ -67,8 +67,14 @@ console.log(typeof myInt);
 console.log(typeof myFloat);
 
 // MDN Number methods
-// toFixed()
+// toFixed() returns string representing a number in fixed-point notation; number of 
 const lotsOfDecimal = 1.766584958675746364;
 console.log('lotsOfDecimal =',lotsOfDecimal);
-const twoDecimalPlaces = lotsOfDecimal.toFixed(2);
+const twoDecimalPlaces = lotsOfDecimal.toFixed(2); // Number of digits after the decimal point. Must be in the range 0 - 20, inclusive.
 console.log('twoDecimalPlaces =', twoDecimalPlaces);
+
+// Converting number to data types
+let myNumber = '74';
+myNumber += 3; 
+console.log(myNumber); // results in 743 due to concatenation AND myNumber is actually defined as a strings
+console.log(typeof myNumber); //string
