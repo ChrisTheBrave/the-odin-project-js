@@ -93,3 +93,10 @@ Returns the remainder left over after you've divided the left number into a numb
 
 **	Exponent	Raises a base number to the exponent power, that is, the base number multiplied by itself, exponent times. 
 It was first Introduced in EcmaScript 2016.	5 ** 2 (returns 25, which is the same as 5 * 5).*/
+
+//declaring and initializing some numbers inside variables and using them in the sums
+const valueOne = 10;
+const valueTwo = 50;
+9 * valueOne;
+valueOne ** 3;
+valueTwo / valueOne;
